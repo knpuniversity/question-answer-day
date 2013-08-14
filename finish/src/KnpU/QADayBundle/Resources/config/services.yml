@@ -1,0 +1,28 @@
+services:
+    site_manager:
+        class: KnpU\QADayBundle\Site\SiteManager
+
+    current_site_listener:
+        class: KnpU\QADayBundle\EventListener\CurrentSiteListener
+        arguments:
+            - "@site_manager"
+            - "@doctrine.orm.default_entity_manager"
+            - "%base_host%"
+        tags:
+            -
+                name: kernel.event_listener
+                event: kernel.request
+                method: onKernelRequest
+
+    qa_day.controller.service:
+        class: KnpU\QADayBundle\Controller\ServiceController
+        arguments: ["@templating", "@router"]
+
+    unique_event_date_validator:
+        class: KnpU\QADayBundle\Validator\UniqueEventDateValidator
+        arguments:
+            - "@doctrine.orm.entity_manager"
+        tags:
+            -
+                name: validator.constraint_validator
+                alias: unique_event_date

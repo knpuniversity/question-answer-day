@@ -1,0 +1,29 @@
+homepage:
+    path: /
+    defaults:
+        _controller: QADayBundle:Default:index
+
+homepage_admin:
+    path: /
+    defaults:
+        _controller: QADayBundle:Admin:index
+    host: admin.%base_host%
+
+parameter_test:
+    resource: parameter_test.yml
+
+controller_container:
+    path: /controller/container
+    defaults:
+        _controller: QADayBundle:Container:index
+
+controller_service:
+    path: /controller/service
+    defaults:
+        _controller: qa_day.controller.service:indexAction
+
+event_new:
+    path: /event/new
+    defaults:
+        _controller: QADayBundle:Event:new
+

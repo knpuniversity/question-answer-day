@@ -1,0 +1,7 @@
+parameter_test:
+    path: %my_hidden_url%
+    defaults: { _controller: QADayBundle:Default:parameterTest }
+
+parameter_prefix:
+    path: %routing_prefix%/test
+    defaults: { _controller: QADayBundle:Default:parameterTest }

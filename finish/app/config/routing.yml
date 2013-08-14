@@ -1,0 +1,4 @@
+qa_day:
+    resource: "@QADayBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,10 @@
+homepage:
+    path: /
+    defaults:
+        _controller: QADayBundle:Default:index
+
+homepage_admin:
+    path: /
+    defaults:
+        _controller: QADayBundle:Admin:index
+    host: admin.%base_host%

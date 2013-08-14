@@ -1,0 +1,13 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+{% if site %}
+    <h1>Welcome to {{ site.name }}</h1>
+
+    <p>{{ site.description }}</p>
+{% else %}
+    <h1>KnpU QA Day! Yeehaw!</h1>
+
+    <p class="less-element">Text styled with .less</p>
+{% endif %}
+{% endblock %}
