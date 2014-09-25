@@ -18,6 +18,7 @@ chapters:
         title:      Your Questions!
         is_free:    true
         length:     0:55
+        video_key:  06lzujfyag
     routing-parameter-pattern:
         title:      More on Routing And Dependency Injection Parameters
         is_free:    true
@@ -38,6 +39,7 @@ chapters:
         title:      How to handle dynamic Subdomains in Symfony
         is_free:    true
         length:     11:43
+        video_key:  calsl4kz0a
     controllers-services:
         title:      Symfony2: Make my Controllers Services?
         is_free:    true
