@@ -1,5 +1,4 @@
 title:  Question and Answer Day: March 27th, 2013
-price:  0
 length: 12:38
 summary: |
     Woh! KnpUniversity Question & Answer Day is **March 27th, 2013**!
@@ -8,75 +7,56 @@ summary: |
     we'll answer them. We're calling it KnpU Question/Answer Day - we're
     finally shutting up and doing the listening!
 illustration: qa-day.png
-priority: 100
 hasVideoDownload: 0
-tags:
-    - { name: symfony }
 
 chapters:
     questions:
         title:      Your Questions!
         is_free:    true
-        length:     0:55
         video_key:  06lzujfyag
     routing-parameter-pattern:
         title:      More on Routing And Dependency Injection Parameters
         is_free:    true
-        has_video:  0
     travis-ci:
         title:      How to use Behat and Selenium on Travis CI
         is_free:    true
-        has_video:  0
     create-composer-package:
         title:      Creating your very own Composer Package
         is_free:    true
-        has_video:  0
     swiftmailer-spooling:
         title:      Swiftmailer Spooling and Handling Failures
         is_free:    true
-        has_video:  0
     symfony2-dynamic-subdomains:
         title:      How to handle dynamic Subdomains in Symfony
         is_free:    true
-        length:     11:43
         video_key:  calsl4kz0a
     controllers-services:
         title:      Symfony2: Make my Controllers Services?
         is_free:    true
-        has_video:  0
     less-with-assetic:
         title:      How to compile .less styles into .css (on any OS)
         is_free:    true
-        has_video:  0
     custom-validation-property-path:
         title:      Custom Validation, Callback and Constraints
         is_free:    true
-        has_video:  0
     remove-form-field:
         title:      How to (dynamically) remove a Form Field
         is_free:    true
-        has_video:  0
     symfony2-rad:
         title:      Symfony2: Setup, Configuration, Rad?
         is_free:    true
-        has_video:  0
     symfony2-users-menu-cms:
         title:      Complex Symfony2 Examples: Users, Menus, CMS Features
         is_free:    true
-        has_video:  0
     model-organization:
         title:      Symfony2: Organizing your Business Logic into Models
         is_free:    true
-        has_video:  0
     symfony2-conditionally-required-field:
         title: Conditionally Requiring a Form Field in Symfony2
         is_free:    true
-        has_video:  0
     symfony2-security-firewalls-dinos:
         title: "Symfony2 Security, Firewalls and Dinosaurs"
         is_free:    true
-        has_video:  0
     training:
         title: Training: The Hardest Part
         is_free:    true
-        has_video:  0
