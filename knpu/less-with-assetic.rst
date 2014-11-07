@@ -48,7 +48,7 @@ the ``require`` key:
 
 .. tip::
 
-    Curious about the ``~0.3`` version? It's roughly equivalent to ``>=0.3,<0.4``
+    Curious about the ``~0.3`` version? It's roughly equivalent to ``>=0.3,<1.0``
     and is awesome. See `Package Versions`_ for more details.
 
 Next, configure the ``assetic`` key on ``config.yml`` to activate the filter:
