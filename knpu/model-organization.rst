@@ -52,5 +52,5 @@ Cheers!
 .. _`Audrius`: https://twitter.com/shivas80
 .. _`view layer`: http://symfony.com/doc/current/components/http_kernel/introduction.html#the-kernel-view-event
 .. _`Technical Debt`: http://en.wikipedia.org/wiki/Technical_debt
-.. _service-oriented-architecture`: http://knpuniversity.com/screencast/dependency-injection/container#skinny-controllers-and-service-oriented-architecture
+.. _service-oriented-architecture: http://knpuniversity.com/screencast/dependency-injection/container#skinny-controllers-and-service-oriented-architecture
 .. _`Dependency Injection`: http://knpuniversity.com/screencast/dependency-injection
