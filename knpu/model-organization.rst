@@ -18,7 +18,7 @@ Answer
 As Audrius correctly points out, Symfony2 isn't actually an MVC framework,
 nor does it want to be. Symfony2 is all about converting a "request" into
 a "response". Behind the scenes it uses a simple routing -> controller setup.
-Using templates, or creating a rich :doc:`service-oriented-architecture</screencast/dependency-injection/services>`
+Using templates, or creating a rich `service-oriented-architecture`_
 is totally optional and up to you. You can even create your own classic
 `view layer`_ if you want to.
 
@@ -31,8 +31,7 @@ is almost always the best way to organize things.
 .. tip::
 
     If any of this "skinny controllers" and "fat" models is new to you, check
-    out our free :doc:`Dependency Injection</screencast/dependency-injection/intro>`
-    screencast.
+    out our free `Dependency Injection`_ screencast.
 
 But this isn't a hard rule. Having a perfectly-organized service layer is
 something to strive towards, but not something that's always easy - or even good -
@@ -53,3 +52,5 @@ Cheers!
 .. _`Audrius`: https://twitter.com/shivas80
 .. _`view layer`: http://symfony.com/doc/current/components/http_kernel/introduction.html#the-kernel-view-event
 .. _`Technical Debt`: http://en.wikipedia.org/wiki/Technical_debt
+.. _service-oriented-architecture`: http://knpuniversity.com/screencast/dependency-injection/container#skinny-controllers-and-service-oriented-architecture
+.. _`Dependency Injection`: http://knpuniversity.com/screencast/dependency-injection

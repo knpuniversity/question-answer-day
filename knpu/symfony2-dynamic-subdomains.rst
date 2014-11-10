@@ -15,9 +15,8 @@ And from `zaherg`_:
 Answer
 ------
 
-Symfony 2.2 comes with :doc:`hostname handling</screencast/new-symfony-2.2/host-routing>`
-out of the box, which lets you create two routes that have the same path,
-but respond to two different sub-domains:
+Symfony 2.2 comes with `hostname handling`_ out of the box, which lets you
+create two routes that have the same path, but respond to two different sub-domains:
 
 .. code-block:: yaml
 
@@ -93,8 +92,7 @@ about this site.
 .. note::
 
     Press tab to take advantage of the command autocompletion. This is the
-    brand new :ref:`2.2 autocomplete feature<symfony-cli-autocomplete>` in
-    action.
+    brand new `2.2 autocomplete feature`_ in action.
 
 Finish up the wizard then immediately create the database and schema. Be
 sure to customize your ``app/config/parameters.yml`` file first:
@@ -490,3 +488,5 @@ can be dangerous!
 .. _`Starting in Symfony2`: http://knpuniversity.com/screencast/getting-started-in-symfony2-2-1
 .. _`Episode 3 of our Symfony2 Series`: http://knpuniversity.com/screencast/starting-in-symfony2-episode-3-2-1
 .. _`HttpKernel`: http://symfony.com/doc/current/components/http_kernel/introduction.html#creating-an-event-listener
+.. _`hostname handling`: https://knpuniversity.com/screencast/new-symfony-2.2/host-routing
+.. _`2.2 autocomplete feature`: http://knpuniversity.com/screencast/new-symfony-2.2/dialog-progress-autocomplete

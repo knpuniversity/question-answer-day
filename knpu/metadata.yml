@@ -11,52 +11,36 @@ hasVideoDownload: 0
 
 chapters:
     questions:
-        title:      Your Questions!
         is_free:    true
         video_key:  06lzujfyag
     routing-parameter-pattern:
-        title:      More on Routing And Dependency Injection Parameters
         is_free:    true
     travis-ci:
-        title:      How to use Behat and Selenium on Travis CI
         is_free:    true
     create-composer-package:
-        title:      Creating your very own Composer Package
         is_free:    true
     swiftmailer-spooling:
-        title:      Swiftmailer Spooling and Handling Failures
         is_free:    true
     symfony2-dynamic-subdomains:
-        title:      How to handle dynamic Subdomains in Symfony
         is_free:    true
         video_key:  calsl4kz0a
     controllers-services:
-        title:      Symfony2: Make my Controllers Services?
         is_free:    true
     less-with-assetic:
-        title:      How to compile .less styles into .css (on any OS)
         is_free:    true
     custom-validation-property-path:
-        title:      Custom Validation, Callback and Constraints
         is_free:    true
     remove-form-field:
-        title:      How to (dynamically) remove a Form Field
         is_free:    true
     symfony2-rad:
-        title:      Symfony2: Setup, Configuration, Rad?
         is_free:    true
     symfony2-users-menu-cms:
-        title:      Complex Symfony2 Examples: Users, Menus, CMS Features
         is_free:    true
     model-organization:
-        title:      Symfony2: Organizing your Business Logic into Models
         is_free:    true
     symfony2-conditionally-required-field:
-        title: Conditionally Requiring a Form Field in Symfony2
         is_free:    true
     symfony2-security-firewalls-dinos:
-        title: "Symfony2 Security, Firewalls and Dinosaurs"
         is_free:    true
     training:
-        title: Training: The Hardest Part
         is_free:    true

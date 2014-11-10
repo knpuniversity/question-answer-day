@@ -25,9 +25,9 @@ Answer
 I don't think you were giving yourself enough credit with your question, because
 you already know the answer! ;).
 
-As we mentioned in the :ref:`Hostname Routing<symfony-routing-parameters>`
-chapter of our What's new in Symfony 2.2 tutorial, starting in Symfony 2.1,
-you can use a dependency injection parameter anywhere in your routing.
+As we mentioned in the `Hostname Routing`_ chapter of our What's new in Symfony 2.2
+tutorial, starting in Symfony 2.1, you can use a dependency injection parameter
+anywhere in your routing.
 
 First, let's start with a normal route:
 
@@ -191,3 +191,4 @@ One way to accomplish this would be to sub-class the ``Router`` class, override
 .. _`Router`: https://github.com/symfony/symfony/blob/2.2/src/Symfony/Component/Routing/Router.php
 .. _`Symfony\\Bundle\\FrameworkBundle\\Routing\\Router`: https://github.com/symfony/symfony/blob/2.2/src/Symfony/Bundle/FrameworkBundle/Routing/Router.php
 .. _`resolveParameters`: https://github.com/symfony/symfony/blob/2.2/src/Symfony/Bundle/FrameworkBundle/Routing/Router.php#L85
+.. _`Hostname Routing`: https://knpuniversity.com/screencast/new-symfony-2.2/host-routing

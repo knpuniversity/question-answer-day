@@ -24,7 +24,7 @@ faster.
 I'll assume that you already have Behat installed with a few `@javascript`
 features you'd like to run and focus specifically on the `.travis.yml` configuration.
 And if you're looking to sharpen your Behat skills (or start using it!),
-check out :doc:`BDD, Behat, Mink and other Wonderful Things</screencast/behat/intro>`.
+check out `BDD, Behat, Mink and other Wonderful Things`_.
 
 1) Installing a Web Server (e.g. Apache)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -249,3 +249,4 @@ Cheers!
 .. _`GUI & Headless browser testing on travis-ci.org`: http://about.travis-ci.org/docs/user/gui-and-headless-browsers/
 .. _`Creating and Using a Github OAuth Token With Travis And Composer`: http://blog.simplytestable.com/creating-and-using-a-github-oauth-token-with-travis-and-composer/
 .. _`Roman`: https://twitter.com/Inoryy
+.. _`BDD, Behat, Mink and other Wonderful Things`: https://knpuniversity.com/screencast/behat

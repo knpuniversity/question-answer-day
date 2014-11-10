@@ -29,8 +29,7 @@ register my controllers as services**, and the reasons behind this are simple:
 things ever, but since it takes longer, the rewards need to outweigh this.
 
 2) All of your logic should be pushed out into your service layer anyways.
-This is the age-old :ref:`skinny controllers<di-skinny-controllers-soa>`
-best-practice.
+This is the age-old :ref:`skinny controllers` best-practice.
 
 3) And now that your controllers are skinny, there's no need to unit test
 them. Instead unit test the services being used by your controllers.
@@ -284,3 +283,4 @@ Phew, ok, have fun!
 .. _`JMSDebugginBundle`: http://jmsyst.com/bundles/JMSDebuggingBundle
 .. _`screenshot`: http://screencast.com/t/J23luaL4Ii
 .. _`Kris points out`: http://pooteeweet.org/blog/1947/1948#m1948
+.. _`skinny controllers`: http://knpuniversity.com/screencast/dependency-injection/container#skinny-controllers-and-service-oriented-architecture
