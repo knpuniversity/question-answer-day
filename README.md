@@ -6,6 +6,6 @@ inside:
 
 1) start - A working copy of the code at the start of our application
 
-2) start - A shiny working copy after each of the answered questions.
+2) finish - A shiny working copy after each of the answered questions.
 
 Check out the README.md in each directory for more details.
