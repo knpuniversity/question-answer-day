@@ -29,7 +29,7 @@ register my controllers as services**, and the reasons behind this are simple:
 things ever, but since it takes longer, the rewards need to outweigh this.
 
 2) All of your logic should be pushed out into your service layer anyways.
-This is the age-old :ref:`skinny controllers` best-practice.
+This is the age-old `skinny controllers`_ best-practice.
 
 3) And now that your controllers are skinny, there's no need to unit test
 them. Instead unit test the services being used by your controllers.
