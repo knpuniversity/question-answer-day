@@ -179,11 +179,7 @@ logic is in the ``EventRepository`` class::
         {
             $qb = $this->createQueryBuilder('e');
 
-            $expr1 = $qb->expr()->andX('e.startDate < :endDate AND e.endDate > :startDate');
-            $expr2 = $qb->expr()->andX('e.endDate > :startDate AND e.startDate < :endDate');
-            $orExpr = $qb->expr()->orX($expr1, $expr2);
-
-            return $qb->andWhere($orExpr)
+            return $qb->andWhere('e.startDate < :endDate AND e.endDate > :startDate')
                 ->setParameter('startDate', $startDate)
                 ->setParameter('endDate', $endDate)
                 ->getQuery()
@@ -191,19 +187,6 @@ logic is in the ``EventRepository`` class::
             ;
         }
     }
-
-.. tip::
-
-    This shows off Doctrine's `Expression Builder`_, but the query can also
-    be simplified to the very-long, but easy::
-    
-        return $this->createQueryBuilder('e')
-            ->andWhere('(e.startDate < :endDate AND e.endDate > :startDate) OR (e.endDate > :startDate AND e.startDate < :endDate)')
-            ->setParameter('startDate', $startDate)
-            ->setParameter('endDate', $endDate)
-            ->getQuery()
-            ->execute()
-        ;
 
 Great! Now use this function in the callback method in the controller::
 
