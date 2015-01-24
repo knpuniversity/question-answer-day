@@ -278,6 +278,8 @@ class is very simple - just a property with a get/set method::
     // src/KnpU/QADayBundle/Site/SiteManager.php
     namespace KnpU\QADayBundle\Site;
 
+    use KnpU\QADayBundle\Entity\Site;
+
     class SiteManager
     {
         private $currentSite;
@@ -287,7 +289,7 @@ class is very simple - just a property with a get/set method::
             return $this->currentSite;
         }
 
-        public function setCurrentSite($currentSite)
+        public function setCurrentSite(Site $currentSite)
         {
             $this->currentSite = $currentSite;
         }
