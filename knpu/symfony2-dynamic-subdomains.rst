@@ -420,6 +420,8 @@ and tag it so that it's an event listener on the ``kernel.request`` event:
             class: KnpU\QADayBundle\EventListener\CurrentSiteListener
             arguments:
                 - "@site_manager"
+                - "@doctrine.orm.entity_manager"
+                - "%base_host%"
             tags:
                 -
                     name: kernel.event_listener
