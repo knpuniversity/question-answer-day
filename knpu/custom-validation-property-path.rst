@@ -173,6 +173,7 @@ logic is in the ``EventRepository`` class::
     namespace KnpU\QADayBundle\Entity;
 
     use Doctrine\ORM\EntityRepository;
+
     class EventRepository extends EntityRepository
     {
         public function findOverlappingWithRange(\DateTime $startDate, \DateTime $endDate)
