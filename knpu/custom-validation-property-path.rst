@@ -36,7 +36,7 @@ that looks like this (with some extras, like getter and setter methods)::
          */
         private $id;
 
-        /** @ORM\Column(name="name") */
+        /** @ORM\Column(name="name", type="string", length=255) */
         private $name;
 
         /** @ORM\Column(name="startDate", type="datetime") */
