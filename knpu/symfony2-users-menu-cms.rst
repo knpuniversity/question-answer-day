@@ -318,7 +318,7 @@ Cheers!
 .. _`role hierarchy`: http://symfony.com/doc/current/book/security.html#hierarchical-roles
 .. _`creating voters`: http://symfony.com/doc/current/cookbook/security/voters.html
 .. _`KnpMenuBundle`: https://github.com/KnpLabs/KnpMenuBundle
-.. _`KnpMenuBundle Documentation`: https://github.com/KnpLabs/KnpMenuBundle/blob/master/Resources/doc/index.md#first-menu
+.. _`KnpMenuBundle Documentation`: https://github.com/KnpLabs/KnpMenuBundle/blob/master/Resources/doc/index.rst#create-your-first-menu
 .. _`downloaded at Symfony.com`: http://symfony.com/download
 .. _`Symfony CMF`: http://cmf.symfony.com/
 .. _`LiipThemeBundle`: https://github.com/liip/LiipThemeBundle
