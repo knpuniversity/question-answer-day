@@ -108,7 +108,7 @@ it to execute a method on my controller when called::
         $form = $this->createFormBuilder(null, array(
             'data_class' => 'KnpU\QADayBundle\Entity\Event',
             'constraints' => array(
-                new Assert\Callback(array(array($this, 'validateEventDates')))
+                new Assert\Callback(array($this, 'validateEventDates'))
             )
         ))
             ->add('name', 'text')
