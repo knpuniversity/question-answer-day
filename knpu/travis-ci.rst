@@ -245,7 +245,7 @@ Travis is still somewhat new, so it's a living process.
 Cheers!
 
 .. _`spolischook`: https://twitter.com/SPolischook
-.. _`Composer`: knpuniversity.com/screencast/composer
+.. _`Composer`: https://knpuniversity.com/screencast/composer
 .. _`GUI & Headless browser testing on travis-ci.org`: http://about.travis-ci.org/docs/user/gui-and-headless-browsers/
 .. _`Creating and Using a Github OAuth Token With Travis And Composer`: http://blog.simplytestable.com/creating-and-using-a-github-oauth-token-with-travis-and-composer/
 .. _`Roman`: https://twitter.com/Inoryy
