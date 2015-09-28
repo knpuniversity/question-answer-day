@@ -11,7 +11,7 @@ hasVideoDownload: 0
 chapters:
     questions:
         is_free:    true
-        video_key:  06lzujfyag
+        video_key:  140212671
     routing-parameter-pattern:
         is_free:    true
     travis-ci:
@@ -22,7 +22,7 @@ chapters:
         is_free:    true
     symfony2-dynamic-subdomains:
         is_free:    true
-        video_key:  calsl4kz0a
+        video_key:  140212672
     controllers-services:
         is_free:    true
     less-with-assetic:
