@@ -310,7 +310,7 @@ Cheers!
 
 .. _`FOSUserBundle`: https://github.com/FriendsOfSymfony/FOSUserBundle
 .. _`How to load Security Users from the Database`: http://symfony.com/doc/current/cookbook/security/entity_provider.html
-.. _`Groups Functionality`: https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Resources/doc/groups.md
+.. _`Groups Functionality`: https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Resources/doc/groups.rst
 .. _`ACL functionality`: http://symfony.com/doc/current/cookbook/security/acl.html
 .. _`RoleVoter`: https://github.com/symfony/symfony/blob/2.2/src/Symfony/Component/Security/Core/Authorization/Voter/RoleVoter.php
 .. _`RoleHierarchyVoter`: https://github.com/symfony/symfony/blob/2.2/src/Symfony/Component/Security/Core/Authorization/Voter/RoleHierarchyVoter.php
